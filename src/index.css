@@ -578,6 +578,28 @@ section {
   display: block;
   margin-bottom: 4px;
 }
+.contact-icons {
+  display: flex;
+  gap: 14px;
+  margin-top: 22px;
+}
+
+.contact-icon-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid var(--rule);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ink-soft);
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.contact-icon-btn:hover {
+  color: var(--cyan);
+  border-color: var(--cyan);
+}
 
 form {
   display: flex;
